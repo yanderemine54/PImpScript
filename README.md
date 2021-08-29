@@ -7,6 +7,10 @@ Clone the repository:
 
 `git clone https://github.com/yanderemine54/PImpScript.git`
 
+Then compile it:
+
+`make`
+
 ## FAQ
 __Q: Why PImpScript__
 
