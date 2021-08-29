@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void eval(const char*);
+void eval(char*);
 
 int main(int argc, char const *argv[])
 {
@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-void eval(const char *statement)
+void eval(char *statement)
 {
     char *token;
     const char *delim = " ";
